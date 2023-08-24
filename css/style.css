@@ -1,0 +1,183 @@
+body{
+    background: gray;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainArea{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+.imageTables{
+    position: absolute;
+    background-image: url('/img/schema.png');
+    width: 611px;
+    height: 545px;
+    background-repeat: no-repeat;
+}
+.blockTableItem{
+    display: flex;
+    background: rgb(246, 228, 161);
+    width: 35px;
+    padding: 2px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; 
+    z-index: 9999;
+}
+.blockTableItem:hover{
+    cursor: pointer;
+}
+.blockTableItemCirlce{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+.leftTables {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 462px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.blockLeftT {
+    display: flex;
+    height: 420px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blockRightT{
+    display: flex;
+    height: 420px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centerTables {
+    display: flex;
+    height: 299px;
+    position: absolute;
+    left: 196px;
+    width: 175px;
+    top: 143px;
+    justify-content: space-between;
+}
+.divleftCenterT {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divRightenterT {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divCenterCenterT {
+    display: flex;
+    flex-direction: column;
+    height: 205px;
+    margin-top: 48px;
+    justify-content: space-between;
+}
+.rightTables {
+    width: 133px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 144px;
+    left: 441px;
+    justify-content: space-around;
+}
+.blockTableItemVip {
+    position: absolute;
+    top: 38px;
+    width: 123px;
+    height: 59px;
+    left: 448px;
+}
+.divblockLeftRT,.divblockRightRT{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+.textT{
+    opacity: 0;
+    transition: 0.3s;
+    color: rgb(79, 38, 15);
+}
+.blockAboutTableInfo {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 32px;
+    left: 695px;
+    width: 320px;
+    height: 365px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 3px 6px 17px 0px rgb(199, 193, 193);
+}
+.titleTAble{
+    color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
+.infoTable{
+    margin-left: 12px;
+    margin-bottom: 8px;
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    background: rgb(88, 173, 88);
+    width: 250px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.btn:hover{
+    background: rgb(61, 143, 61);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.imgTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+.imgTable img{
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
